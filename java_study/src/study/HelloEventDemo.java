@@ -26,7 +26,7 @@ public class HelloEventDemo extends JFrame implements ActionListener{
 	
 	public void actionPerformed(ActionEvent e) {
 	//	System.out.println("버튼을 클릭했습니다.");
-		label.setText("버튼이 눌림");
+		label.setText("버튼이 눌렸음");
 	}
 	
 	public static void main(String[] args) {
