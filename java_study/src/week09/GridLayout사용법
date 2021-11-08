@@ -1,0 +1,9 @@
+그릴드 레이아웃 사용법
+
+GridLayout gridLayout = new GridLayout(4,4); : 여백이 없는 4행 4열짜리 그리드레이아웃
+
+GridLayout gridLayout = new GridLayout(4,4,3,0); : 세로 여백이 3인 4행 4열짜리 그리드레이아웃
+
+GridLayout gridLayout = new GridLayout(4,4,0,3); : 가로 여백이 3인 4행 4열짜리 그리드레이아웃
+
+GridLayout gridLayout = new GridLayout(4,4,3,3); : 모든 여백이 3인 4행 4열짜리 그리드레이아웃
